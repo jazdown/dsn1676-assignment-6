@@ -13,8 +13,6 @@ var $circle = $('.circle');
 var $btnAppend = $('.btn-append');
 var $list = $('.list');
 
-
-
 $btnShowHide.on('click', function () {
   $boxShow.toggleClass('js-toggle-show');
 });
