@@ -31,7 +31,7 @@ $btnBounce.on('click', function () {
   $circle.addClass('js-ball-bounce');
 }); 
 
-$circle.on('animationend', function () {
+$circle.on('webkitAnimationEnd animationend', function () {
   $circle.removeClass('js-ball-bounce');
 });
 
