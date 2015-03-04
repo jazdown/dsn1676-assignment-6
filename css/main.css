@@ -122,7 +122,46 @@ div {
 }
 
 .js-append {
+  -webkit-animation: btn-append 300ms ease-in-out;
   animation: btn-append 300ms ease-in-out;
+}
+
+@-webkit-keyframes ball-bounce {
+  0% {
+    height: 100px;
+  }
+  
+  20% {
+    height: 140px;
+  }
+  
+  40% {
+    height: 100px;
+  }
+  
+  60% {
+    height: 130px;
+  }
+  
+  75% {
+    height: 100px;
+  }
+  
+  85% {
+    height: 120px;
+  }
+  
+  90% {
+    height: 100px;
+  }
+  
+  95% {
+    height: 110px;
+  }
+  
+  100% {
+    height: 100px;
+  }
 }
 
 @keyframes ball-bounce {
